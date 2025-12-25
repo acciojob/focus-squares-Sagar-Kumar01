@@ -17,6 +17,7 @@ for(let i = 0; i<3; i++){
 			square[1].style.backgroundColor = "#6F4E37"
 		}
 	})
+	square[i].addEventListener("mouseout", erase);
 }
 function erase() {
 	for(let i = 0; i<3; i++){
